@@ -3,7 +3,7 @@
   padding: 0;
 }
 .container{
-	max-width: 40%;
+	max-width: max;
 	margin: 0 auto;
 	border: 2px solid #333;
 	
@@ -129,4 +129,10 @@
 .btns > input{
   padding: 3px 8px;
   margin-right: 8px;
+}
+
+@media only screen and (max-width: 720px){
+  .container{
+    width: 90%;
+  }
 }
