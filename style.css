@@ -135,4 +135,7 @@
   .container{
     width: 90%;
   }
+  .card{
+    width: 250px;
+  }
 }
